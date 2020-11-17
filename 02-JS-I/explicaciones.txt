@@ -1,0 +1,62 @@
+Hola Buenos dias o tardes en estos momentos procederemos a realizar 
+una breve explicacion o resumen de varios puntos importantes del 
+lenguaje de programacion JavaScript.
+
+variables: una variable es como una memoria para nuestro codigo que la
+usamos para almacenar algo que usaremos mas tarde, un ejemplo similar a
+una variable es cuando usamos la calculadora pero hablo especificamente 
+de la que tienes dos memorias con entretadas y salida para recordar el 
+calculo matematico que usamos anteriormente de una forma sencilla.
+
+Strings: los strings son bloques de texto que siempre los definiremos en
+comillas simples o dobles, la cual usaremos en operaciones como concatenar 
+o dividir cadenas de texto, extraer parte de un texto clave en nuestro codigo.
+
+Funciones (argumentos, return)
+-Funciones: las funciones son una parte importante en JavaScript, ya que estos los
+usamos para invocar objetos en nuestro codigo; una funcion siempre iniciara por 
+"FUNCTION" pero escrita en minuscula la cual le dice a nuestro codigo que iniciaremos 
+y podriamos decir que en cierta forma debemos darle prioridad a ello, despues de llamar
+la funcion o nuestro objeto invocable debemos darle un nombre a nuestra funcion 
+si queremos o para no olvidarnos de lo que hace podemos nombrar dicha funcion con 
+activadad a realizar despues de invocarla.
+
+argumentos: en function, un argumento es como una variable ya puede ser en texto o 
+numerica es decir si nuestra funcion es saludar, seria "function saludar(nombre) {}" 
+es este caso nuestro argumento seria nombre porque es la invocacion que deseamos mostrar
+con nuestra funcion.
+
+return: cuando usamos return, es porque queremos que nuestro codigo nos devuelva un resultado
+a la operacion que realizamos anteriormente, es decir:
+
+
+"esta nuestra funcion       esto nuestro argumento
+function restarNumeros      (x, y) {
+
+    codigo de nuestra operacion a realizar
+    var resta = a - b;
+
+    con return, nuestro codigo nos devolvera el resultado de la operacion anterior
+    resturn resta;
+}
+
+Declaraciones if: con podemos declarar con mayor facilidada los valores booleanos es decir,
+if (si), con lo cual quiero decir ejemplo
+
+para realizar este curso debemos ser mayores de 18
+
+function cursoHenry(edad) {
+
+es decir si edad mayor a 18 es posible hacer el curso
+    if (edad>18){
+        return true;
+    }
+    return false;
+}
+
+es decir invocamos cursoHenry('ingresamos edad' 22) true.
+quiere decir si podemos hacer curso en henry 
+
+Valores booleanos (ture, false): este caso los valores booleanoos serian como los codigos 
+binarios ya que 1 activo y 0 desactivar, lo que quiero decir es que con los valores booleanos
+podemos decir que cierta cosa es verdadera o falsa en la operacion.
